@@ -1,6 +1,6 @@
 # Leaflet::Fullscreen::Rails
 
-TODO: Write a gem description
+Integrates the [Leaflet Fullscreen] plugin with Rails asset pipeline
 
 ## Installation
 
@@ -18,7 +18,15 @@ Or install it yourself as:
 
 ## Usage
 
-TODO: Write usage instructions here
+Add the following to your `app/assets/javascripts/application.js`:
+
+    //= require leaflet.fullscreen
+        
+Add the following to your `app/assets/stylesheets/application.css`:    
+    
+    *= require leaflet.fullscreen
+    
+Examples can be found at [brunob]
 
 ## Contributing
 
@@ -27,3 +35,12 @@ TODO: Write usage instructions here
 3. Commit your changes (`git commit -am 'Add some feature'`)
 4. Push to the branch (`git push origin my-new-feature`)
 5. Create new Pull Request
+
+## License
+MIT License, full text of license see [here][License]
+
+*Free Software, Fuck Yeah!*
+
+[License]: https://github.com/kendrikat/leaflet-fullscreen-rails/blob/master/LICENSE.txt "LICENSE"
+[Leaflet Fullscreen]: https://github.com/brunob/leaflet.fullscreen
+[brunob]: https://github.com/brunob/leaflet.fullscreen#how-
