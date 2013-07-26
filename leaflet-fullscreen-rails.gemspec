@@ -8,9 +8,10 @@ Gem::Specification.new do |gem|
   gem.version       = Leaflet::Fullscreen::Rails::VERSION
   gem.authors       = ["Klaas Endrikat"]
   gem.email         = ["klaas.endrikat@googlemail.com"]
-  gem.description   = %q{TODO: Write a gem description}
-  gem.summary       = %q{TODO: Write a gem summary}
-  gem.homepage      = ""
+  gem.description   = %q{Integrates the Leaflet Fullscreen plugin with Rails asset pipeline}
+  gem.summary       = %q{Leaflet Fullscreen plugin for Rails}
+  gem.license       = 'MIT'
+  gem.homepage      = "https://github.com/kendrikat/leaflet-fullscreen-rails"
 
   gem.files         = `git ls-files`.split($/)
   gem.executables   = gem.files.grep(%r{^bin/}).map{ |f| File.basename(f) }

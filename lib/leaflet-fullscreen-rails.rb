@@ -3,7 +3,8 @@ require "leaflet-fullscreen-rails/version"
 module Leaflet
   module Fullscreen
     module Rails
-      # Your code goes here...
+      class Engine < ::Rails::Engine
+      end
     end
   end
 end
